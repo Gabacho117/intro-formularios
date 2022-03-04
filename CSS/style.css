@@ -1,118 +1,125 @@
-body {
-    background: #2a5fa5;
+body{
+    background: #eee;
     display: flex;
     flex-direction: column;
     padding: 0px;
     margin: 0px;
 }
- 
-.navbar{
-    background-color: #1e83c0;
+.navbar {
+    background: #0677ba;
     display: flex;
     align-items: center;
-    padding: 15px 10px 15px 100px;
+    padding: 15px 0px 15px 100px;
 }
+
+/* .logo{
+    width: 80px;
+    height: 150px;
+} */
 
 .main-page{
-    background-color: #f9f9f8;
-    padding: 80px 0px 130px 0px;
+    background-color:#f9f9f8;
+    padding: 100px 0px 100px 0px;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid rgb(231, 231, 231);
 }
-
 section{
-    background-color: white;
-    border: 1px solid #e9e6e6;
-    border-radius: 5px;
-    width: 25em;
+    background-color: #FFFFFF;
+    border: 2px outset rgba(240, 240, 240, 0.925);
+    border-radius: 3px;
+    width: 20em;
     padding: 20px;
 }
 
-.title-form{
+.tittle-form{
     margin: 0px 0px 20px 0px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-.title-form div span{
-    font-size: 1.20em;
+.tittle-form span{
+    font-size: 1.25em;
+    font-family: Georgia, "Times New Roman", serif;
 }
-
-.title-form div a{
-    color: rgb(155, 149, 149);
-    font-weight: bold ;
+.tittle-form a{
+    font-weight: normal;
     text-decoration: none;
+    font-size: 0.75em;
+    color: #9A9FA8;
 }
-
-.text-area{
-    margin-bottom: 10px;
+.input-access {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
 }
-
-.text-area input{
-    border: 2px solid #DBDBDB;
-    background-color: #EEEEEE;
-    color: #666;
-    width: 300px;
+.input-access input{
+    background-color: #eeeeee ;
+    border: 1px solid #E7E7E7;    
+    border-radius: 1px;
+    height: 20px;
+    font-weight: normal;
+    color: rgb(206, 199, 199);
+    font-size: 15px;
+    padding: 8px;
+}
+.input-access span{
     font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    padding: 9px;
+    color: rgba(165, 163, 163, 0.911);
+    font-size: 0.70rem;
+    margin-top: 5px;
 }
 
-.text-area input::placeholder{
-    color: rgb(148, 148, 148);
-}
-
-.text-area input:focus {
-    border: 2px solid #2a66aa;
-    outline: none;
-}
-
-.description{
-    margin-bottom: 10px;
-    color: #9a9fa8;
-    font-size: 12px;
-}
-
-.buttom input{
-    background-color: #4fb2d3;
-    border: 0px solid #DBDBDB;
-    color: #EEEEEE;
+button{
+    background: #3ea1c1;
+    height: 36px;
+    width: 19em;
+    border: none;
     font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
     font-weight: bold;
-    font-size: 16px;
-    width: 323px;
-    padding: 9px;
-}
-
-.buttom input:hover{
-    background-color: #3EA1C1;
     cursor: pointer;
 }
 
-footer{
-    padding-top: 60px;
-    padding-left: 250px;
-    position: relative;
-    font-family: 'Open Sans', sans-serif;
+.page-footer{
+    display: flex;
+    flex-direction: row;
+    background: #eee;
+    margin: 3em 0em 4em 7em;
+}
+.page-footer span{
     color: #556370;
-    height: 100%;
-    background-color: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 }
-
-footer a{
+.privacy-pol{
     color: #556370;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
     text-decoration: none;
 }
-
-footer a:hover{
-    border-bottom: 1px solid #556370;
+.terms-of-use{
+    color: #556370;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    text-decoration: none;
 }
-
-footer .privacy{
-    font-weight: bold;
+.help-center{
+    color: #556370;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
 }
-
+.divider*{
+    color: #556370;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
 
 
 /*  .Logo{

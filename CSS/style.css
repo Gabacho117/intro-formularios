@@ -1,0 +1,121 @@
+body {
+    background: #2a5fa5;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+ 
+.navbar{
+    background-color: #1e83c0;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px 15px 100px;
+}
+
+.main-page{
+    background-color: #f9f9f8;
+    padding: 80px 0px 130px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    background-color: white;
+    border: 1px solid #e9e6e6;
+    border-radius: 5px;
+    width: 25em;
+    padding: 20px;
+}
+
+.title-form{
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-form div span{
+    font-size: 1.20em;
+}
+
+.title-form div a{
+    color: rgb(155, 149, 149);
+    font-weight: bold ;
+    text-decoration: none;
+}
+
+.text-area{
+    margin-bottom: 10px;
+}
+
+.text-area input{
+    border: 2px solid #DBDBDB;
+    background-color: #EEEEEE;
+    color: #666;
+    width: 300px;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 9px;
+}
+
+.text-area input::placeholder{
+    color: rgb(148, 148, 148);
+}
+
+.text-area input:focus {
+    border: 2px solid #2a66aa;
+    outline: none;
+}
+
+.description{
+    margin-bottom: 10px;
+    color: #9a9fa8;
+    font-size: 12px;
+}
+
+.buttom input{
+    background-color: #4fb2d3;
+    border: 0px solid #DBDBDB;
+    color: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    width: 323px;
+    padding: 9px;
+}
+
+.buttom input:hover{
+    background-color: #3EA1C1;
+    cursor: pointer;
+}
+
+footer{
+    padding-top: 60px;
+    padding-left: 250px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #556370;
+    height: 100%;
+    background-color: #EEEEEE;
+    font-size: 13px;
+}
+
+footer a{
+    color: #556370;
+    text-decoration: none;
+}
+
+footer a:hover{
+    border-bottom: 1px solid #556370;
+}
+
+footer .privacy{
+    font-weight: bold;
+}
+
+
+
+/*  .Logo{
+    width: 300px;
+}
+*/
